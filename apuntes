@@ -21,3 +21,15 @@
   var texto1= 'Hola'; //Es indiferente el uso de comillas simples o dobles, pero si se comienza con un tipo hay que acabar con el mismo
   var num=36;
   var numtxt=string(num); //Conversión de número a texto
+  //Booleanos TRUE or FALSE
+  var boo=true;
+  var estado=boolean(100 < 100); //La función boolean te dará un resultado FALSE ya que lo que se encuentra dentro del paréntesis no es correcto
+  //Fechas
+  var fecha=new Date(); //Actualización de la fecha cada vez que establezcamos la función
+  fecha.getDay(); //Valor numérico del día de la semana en el que se enucuentre
+  fecha.getDate(); //Valor numérico del día del mes en el que se encuentre
+  fecha.getHours(); //Hora de establecimiento de la fecha 
+  fecha.setDate(6); //Seleccionar una fecha generandote un valor numérico
+  //Simbolos
+  var simbolo=symbol(); //Cada simbolo presenta un valor intríseco que nos ayudará a identificarlo
+  
