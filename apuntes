@@ -1,0 +1,20 @@
+"use strict"
+
+//Variable (var) para almacenamiento de valores
+var nombre="Héctor";
+//Scope es el espacio que va a alcanzar una variable (global o local)
+var nombre="Héctor"; //Se trata de una variable global
+function saludo(){
+  var nombre="Héctor Sandoval"; //Variable local, solo es valida dentro de la función, también se podría utilizar el contenedor LET
+}
+saludo();
+//Constantes mantienen persistente el dato que contienen
+const nombre="Héctor";
+
+//En Javascript encontramos diferentes tipos de datos
+//Numéricos
+var numero=36; //Valor numérico
+var numero1="36"; //Valor texto
+var numero2=number(numero1); //Conversión de texto a número
+//Texto o String
+
