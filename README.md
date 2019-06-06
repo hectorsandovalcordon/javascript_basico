@@ -1,2 +1,2 @@
-# javascript_basico
-apuntes javascript básico
+# APUNTES JAVASCRIPT
+
