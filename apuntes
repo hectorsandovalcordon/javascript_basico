@@ -32,4 +32,43 @@
   fecha.setDate(6); //Seleccionar una fecha generandote un valor numérico
   //Simbolos
   var simbolo=symbol(); //Cada simbolo presenta un valor intríseco que nos ayudará a identificarlo
-  
+
+//Diferentes tipos de operadores
+  //Atitméticos (siempre obtendremos unn valor numérico)
+  var d1=5;
+  var d2=10;
+    //Suma
+    var suma = d1+d2;
+    //Resta
+    var resta=d1-d2;
+    //Multiplicación
+    var multi=d1*d2;
+    //División
+    var div=d1/d2;
+    //Resto
+    var rest=d1%d2;
+    //Incremento
+    var incre=d1;
+    incremento++;
+    //Decremento
+    var decre=d1;
+    decremento--;
+  //Relacionales (siempre obtendremos un valor booleano)
+    //Mayor que
+    var mayor=d1>d2;
+    //Menor que
+    var menor=d1<d2;
+    //Mayor o igual que
+    var mayigual=d1>=d2;
+    //Menor o igual que
+    var menigual=d1<=d2;
+    //Igual que
+    var igual=d1==d2;
+    //No es igual que o es diferente que
+    var dif=d1!=d2;
+  //Lógicos
+  //Asignación
+  //Negativo
+  //Concatenación
+  //Condicional
+  //Tipo de datos
