@@ -3,11 +3,19 @@
 //Variable (var) para almacenamiento de valores
   var nombre="Héctor";
   //Scope es el espacio que va a alcanzar una variable (global o local)
-  var nombre="Héctor"; //Se trata de una variable global
-  function saludo(){
-    var nombre="Héctor Sandoval"; //Variable local, solo es valida dentro de la función, también se podría utilizar el contenedor LET
+  var a = 1;
+  function global() {
+   console.log(a);
   }
-  saludo();
+  global();
+  console.log(a); //En este caso, a es una variable global ya que se puede acceder a ella desde cualquier punto del documento
+  
+  function local() {
+  var a = 2;
+  console.log(a);
+  }
+  local();
+  console.log(a); //En este caso, a es una variable local ya que la hemos establecido dentro de una función local
   //Constantes mantienen persistente el dato que contienen
   const nombre="Héctor";
 
